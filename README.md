@@ -161,19 +161,3 @@ case 4:
 
 }
 
-class Profissional {
-
-    String nome;
-    String especialidade;
-
-    public Profissional(String nome, String especialidade) {
-        this.nome = nome;
-        this.especialidade = especialidade;
-    }
-
-    @Override
-    public String toString() {
-        return "Nome: " + nome + "\nEspecialidade: " + especialidade;
-    }
-
-}
